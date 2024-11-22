@@ -1,0 +1,15 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://172.18.0.4:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:30] "[33mGET / HTTP/1.0[0m" 404 -
+ERROR:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:37] code 400, message Bad request version ("\x18ýE\x83î\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:37] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03·  µ\x1f',EÂWü\x0b\x8aEàQã\x10É\x93\x9ag\x94ÈYp\x99ó¸\x14AÓ |ìIR\x12k\x9c]\x83\x03!ò\x845EX-*,\x1eô\x05n%£\x16\x1c\x18ýE\x83î\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] code 400, message Bad HTTP/0.9 request type ('t3')
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[35m[1mt3 12.2.1[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[33mGET /html/nhome.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.38.99.119 - - [07/Nov/2024 16:01:44] "[33mGET /api/hpe-restapi.json HTTP/1.1[0m" 404 -

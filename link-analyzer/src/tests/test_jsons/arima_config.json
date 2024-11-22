@@ -1,0 +1,10 @@
+{ "type": "Arima",
+  "config":{"window":20, "lag":3 ,"q": 1, "p": 0, "d": 1, "p_value": 0.05},
+  "target": {
+    "table": "performances",
+    "schema": "starlink",
+    "field": "pop_ping_latency_ms",
+    "query_freq": 3,
+    "train_window": 100
+  }
+}

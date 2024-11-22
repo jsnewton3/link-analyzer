@@ -1,0 +1,8 @@
+{ "type": "ema",
+  "config":{"window": 2, "weighting":.2},
+  "target": {
+    "table": "starlink_performances",
+    "field": "pop_ping_latency_ms",
+    "query_freq": 0.5
+  }
+}

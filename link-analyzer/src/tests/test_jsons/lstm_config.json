@@ -1,0 +1,10 @@
+{ "type": "Lstm",
+  "config":{"window":200},
+  "target": {
+    "table": "performances",
+    "schema": "starlink",
+    "field": "pop_ping_latency_ms",
+    "query_freq": 3,
+    "train_window": 100
+  }
+}

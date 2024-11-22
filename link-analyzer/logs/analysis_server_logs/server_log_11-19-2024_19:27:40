@@ -1,0 +1,38 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://172.18.0.4:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:routes.routes:Configure monitoring task request received
+ERROR:root:Unrecognized keyword arguments passed to LSTM: {'batch_input_shape': [None, 200, 1], 'time_major': False}
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/monitoring_task_session_handler.py", line 73, in add_monitor_task
+    monitor_obj = monitor_class.deserialize(config_json)
+  File "/link-analyzer/models/analyses.py", line 182, in deserialize
+    lstm = Lstm(**config_dict)
+  File "/link-analyzer/models/analyses.py", line 154, in __init__
+    self.model = load_model('/link-analyzer/models/inputs/lstm_model.keras')
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/saving_api.py", line 189, in load_model
+    return saving_lib.load_model(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/saving_lib.py", line 365, in load_model
+    return _load_model_from_fileobj(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/saving_lib.py", line 442, in _load_model_from_fileobj
+    model = _model_from_config(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/saving_lib.py", line 431, in _model_from_config
+    model = deserialize_keras_object(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+  File "/usr/local/lib/python3.9/site-packages/keras/src/models/sequential.py", line 355, in from_config
+    layer = serialization_lib.deserialize_keras_object(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+  File "/usr/local/lib/python3.9/site-packages/keras/src/layers/rnn/lstm.py", line 679, in from_config
+    return cls(**config)
+  File "/usr/local/lib/python3.9/site-packages/keras/src/layers/rnn/lstm.py", line 486, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.9/site-packages/keras/src/layers/rnn/rnn.py", line 204, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/lib/python3.9/site-packages/keras/src/layers/layer.py", line 285, in __init__
+    raise ValueError(
+ValueError: Unrecognized keyword arguments passed to LSTM: {'batch_input_shape': [None, 200, 1], 'time_major': False}
+INFO:werkzeug:172.18.0.1 - - [19/Nov/2024 19:27:54] "[31m[1mPUT /monitor/config HTTP/1.1[0m" 400 -

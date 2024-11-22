@@ -1,0 +1,18 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://172.18.0.4:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:routes.routes:Configure monitoring task request received
+ERROR:root:File not found: filepath=/link-analyzer/src/models/inputs/lstm_model.keras. Please ensure the file is an accessible `.keras` zip file.
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/monitoring_task_session_handler.py", line 73, in add_monitor_task
+    monitor_obj = monitor_class.deserialize(config_json)
+  File "/link-analyzer/models/analyses.py", line 182, in deserialize
+    lstm = Lstm(**config_dict)
+  File "/link-analyzer/models/analyses.py", line 154, in __init__
+    self.model = load_model('/link-analyzer/src/models/inputs/lstm_model.keras')
+  File "/usr/local/lib/python3.9/site-packages/keras/src/saving/saving_api.py", line 200, in load_model
+    raise ValueError(
+ValueError: File not found: filepath=/link-analyzer/src/models/inputs/lstm_model.keras. Please ensure the file is an accessible `.keras` zip file.
+INFO:werkzeug:172.18.0.1 - - [15/Nov/2024 15:27:45] "[31m[1mPUT /monitor/config HTTP/1.1[0m" 400 -

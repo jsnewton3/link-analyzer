@@ -1,0 +1,221 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://172.18.0.4:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:routes.routes:Configure monitoring task request received
+INFO:werkzeug:172.18.0.1 - - [04/Nov/2024 14:43:00] "PUT /monitor/config HTTP/1.1" 200 -
+INFO:routes.routes:Start monitoring request recieved from 06f2b497-fa06-4828-8a52-af183076e54a
+INFO:controllers.analysis_udp_stream:Initiated client socket ('0.0.0.0', 10000)
+INFO:werkzeug:172.18.0.1 - - [04/Nov/2024 14:43:00] "GET /monitor/start HTTP/1.1" 200 -
+INFO:controllers.analysis_session:Message received from client on port ('172.18.0.1', 55660)Client is listening
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
+ERROR:root:Unable to fetch data, or data is empty
+Traceback (most recent call last):
+  File "/link-analyzer/controllers/analysis_session.py", line 92, in do_monitoring_task
+    row = [datetime.datetime.timestamp(row[0]), float(row[1])]
+TypeError: float() argument must be a string or a number, not 'NoneType'
